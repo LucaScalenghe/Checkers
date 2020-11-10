@@ -27,8 +27,8 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 pass
     
-    board.draw_squares (WIN)   #passes my game window and draws 
-    pygame.display.update() #updates the display of the game
+        board.draw (WIN)   #passes my game window and draws 
+        pygame.display.update() #updates the display of the game
 
 
 
